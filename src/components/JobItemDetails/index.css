@@ -1,0 +1,156 @@
+/* index.css */
+
+.job-details-container {
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+.job-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.job-header img {
+  width: 50px;
+  height: 50px;
+}
+
+.job-header h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.job-info {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 16px;
+  color: #475569;
+}
+
+.job-desc {
+  margin: 20px 0;
+}
+
+.job-desc h1 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.job-desc p {
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+.job-desc a button {
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  background-color: #0b69ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0;
+  margin: 16px 0;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.skill-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.life-at-company {
+  margin: 20px 0;
+}
+
+.life-at-company p {
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+.life-at-company img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.similar-jobs-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.similar-job-item {
+  background-color: #ffffff;
+  padding: 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.similar-job-item h3 {
+  margin: 8px 0 4px;
+}
+
+.similar-job-item p {
+  margin: 4px 0;
+  color: #475569;
+}
+
+/* Loader styles */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+/* Failure View */
+.failure-view {
+  text-align: center;
+  padding: 40px;
+}
+
+.failure-view img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.failure-view h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.failure-view p {
+  color: #64748b;
+  margin-bottom: 16px;
+}
+
+.failure-view button {
+  padding: 8px 16px;
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

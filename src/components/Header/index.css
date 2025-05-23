@@ -1,0 +1,36 @@
+.nav-header {
+  height: 15vh;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.nav-content {
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.nav-menu {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+}
+.nav-link {
+  text-decoration: none;
+  padding: 30px;
+  color: #ffffff;
+  font-size: 20px;
+}
+.logout-desktop-btn {
+  background-color: #6366f1;
+  width: 100px;
+  height: 30px;
+  color: #ffffff;
+  border-radius: 10px;
+  border-style: none;
+}

@@ -1,0 +1,46 @@
+/* Job Card Styles */
+.job-card-link {
+  text-decoration: none;
+}
+
+.job-card {
+  display: flex;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.job-card:hover {
+  transform: scale(1.05);
+}
+
+.job-card-img {
+  width: 60px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.job-card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.job-card-location,
+.job-card-rating,
+.job-card-type,
+.job-card-description {
+  font-size: 14px;
+  color: #555;
+}
+
+.job-card-rating {
+  color: #ff9f00;
+}

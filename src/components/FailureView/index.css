@@ -1,0 +1,21 @@
+/* Failure View Styles */
+.failure-view {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+  margin-top: 20px;
+}
+
+.retry-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.retry-button:hover {
+  background-color: #45a049;
+}
