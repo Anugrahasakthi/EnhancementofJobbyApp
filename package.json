@@ -2,9 +2,10 @@
   "name": "jobby-app",
   "private": true,
   "version": "1.0.0",
-  "engines": {
-  "node": "22.x"
-},
+   "engines": {
+    "node": "^10.13 || 12 || 14 || 15",
+    "npm": ">=6"
+  },
 
   "dependencies": {
     "@testing-library/jest-dom": "5.11.9",
